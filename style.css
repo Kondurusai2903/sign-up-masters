@@ -1,0 +1,90 @@
+* {
+  letter-spacing: 10;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f3f3f3;
+}
+.box {
+  max-width: 700px;
+  margin: auto;
+  border: 1px solid #f3f3f3;
+  border-radius: 20px;
+}
+.box1 {
+  background: hsl(241, 81%, 54%);
+  border-radius: 30px;
+}
+.box1 h5,
+.box1 p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.circle {
+  display: inline-block;
+  padding: 50px 80px;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  /* background:; */
+  border-radius: 50%;
+}
+.box1 .circle p:first-child {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 800;
+}
+.box2 img {
+  padding-right: 8px;
+}
+
+.sai-1 {
+  margin-top: 15px;
+  padding: 10px;
+  background: hsla(0, 100%, 67%, 0.1);
+  border-radius: 10px;
+  color: hsl(0, 100%, 67%);
+}
+.sai-2 {
+  margin-top: 15px;
+  padding: 10px;
+  background: hsla(39, 100%, 56%, 0.1);
+  border-radius: 10px;
+  color: hsl(39, 100%, 56%);
+}
+.sai-3 {
+  margin-top: 15px;
+  padding: 10px;
+  background: hsla(166, 100%, 37%, 0.1);
+  border-radius: 10px;
+  color: hsl(166, 100%, 37%);
+}
+.sai-4 {
+  margin-top: 15px;
+  padding: 10px;
+  background: hsla(234, 85%, 45%, 0.1);
+  border-radius: 10px;
+  color: hsla(234, 85%, 45%);
+}
+.sai-btn {
+  display: inline-block;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 30px;
+  background: hsl(224, 30%, 27%);
+  color: #fff;
+  font-weight: 700;
+}
+span {
+  font-weight: 800;
+  color: black;
+}
